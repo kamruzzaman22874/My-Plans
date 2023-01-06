@@ -3,8 +3,8 @@
 	padding: 0;
 	font-family: 'Open Sans', sans-serif;
 }
-main{
-    max-width: 1140px;
+main {
+	max-width: 1140px;
 }
 
 /* Header section design */
@@ -30,11 +30,12 @@ header {
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
+    margin-bottom: 50px;
 }
 .new-plan-heading-details {
 	text-align: right;
 	width: 100%;
-	margin-left: 25rem;
+	margin-left: 14rem;
 }
 .new-plan-heading-details h2 {
 	font-weight: 700;
@@ -52,32 +53,71 @@ header {
 }
 .failure-previous-year {
 	display: flex;
-	height: 100vh;
-	justify-content: space-between;
+	justify-content: space-around;
 	align-items: center;
-    margin-bottom: 100px;
+	margin-bottom: 100px;
+    margin-right: 2rem;
 }
 .failure-details {
-	margin: 60px 0 0 30px;
+	margin: 60px 20px 0 0px;
 
 }
 .failure-details ul {
 	list-style: none;
-    font-size: 20px;
+	font-size: 16px;
 }
 .failure-previous-year ul img {
 	width: 20px;
-    margin-right: 5px;
+	margin-right: 5px;
 }
 .failure-details h1 {
-	font-size: 45px;
-    margin-bottom: 15px;
+	font-size: 30px;
+	margin-bottom: 15px;
 }
 .failure-details p {
 	font-weight: 400;
-	font-size: 18px;
+	font-size: 16px;
 	line-height: 26px;
-    color: #444343;
-    margin-bottom: 30px;
+	color: #444343;
+	margin-bottom: 30px;
+    text-align: start;
+}
+.my-plan h2 {
+	text-align: center;
+	font-weight: 700;
+	font-size: 40px;
+	color: #151414;
+	margin-bottom: 80px;
+}
+.my-plan-details {
+	display: flex;
+    gap: 30px;
+    width: 100%;
+    margin-bottom: 50px;
+
+}
+.my-plan-detail{
+   padding: 20px;
+   border: 1px solid saddlebrown;
+   border-radius: 10px;
+}
+.my-plan-detail:hover{
+    background-color: darkgrey;
+}
+.my-plan-details img {
+	display: flex;
+	margin-bottom: 10px;
+}
+.my-plan-details h1 {
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 35px;
+	text-align: center;
+}
+.my-plan-details h4{
+    text-align: center;
+}
+.positive-mindset{
+    
 }
 

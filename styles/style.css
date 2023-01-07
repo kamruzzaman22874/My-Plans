@@ -3,9 +3,9 @@
 	padding: 0;
 	font-family: 'Open Sans', sans-serif;
 }
-.container{
+/* .container{
     width: 90%;
-}
+} */
 main {
 	max-width: 1140px;
 }
@@ -38,6 +38,9 @@ header {
 	background-size: cover;
 	margin-bottom: 50px;
 }
+
+/* Design heading */
+
 .new-plan-heading-details {
 	text-align: right;
 	width: 100%;
@@ -57,6 +60,9 @@ header {
 	margin-bottom: 20px;
 	line-height: 26px;
 }
+
+/* Design failure section */
+
 .failure-previous-year {
 	display: flex;
 	justify-content: space-around;
@@ -87,6 +93,9 @@ header {
 	margin-bottom: 30px;
 	text-align: start;
 }
+
+/* Design my plan section */
+
 .my-plan h2 {
 	text-align: center;
 	font-weight: 700;
@@ -120,6 +129,8 @@ header {
 .my-plan-details h4 {
 	text-align: center;
 }
+
+/* Design positive mindset section */
 .positive-mindset {
 	width: 80%;
 	height: 200px;
@@ -146,6 +157,9 @@ header {
     background: #f15b22;
     color: white;
 }
+
+/* Design what i do in future */
+
 .about-me {
 	display: flex;
 	width: 80%;
@@ -165,6 +179,9 @@ header {
 	text-align: justify;
 	padding: 15px;
 }
+
+/* Design footer section */
+
 .footer {
 	display: flex;
 	background: black;
